@@ -1,13 +1,14 @@
 html {
-    background-color: white;
+    width: 1345px;
+    height: 1455px;
 }
-
 main {
-    width: 955px;
-    height: 1500px;
-    margin: -1px auto 10px;
-    border: 5px gray;
-    background-color: rgb(89, 69, 143);
+    width: 1345px;
+    height: 1455px;
+    margin-left: -8px;
+    margin-top: -8px;
+    border: 2px solid rgba(160, 160, 160, 0.918);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,70 +18,189 @@ header {
 }
 
 #imgtopo {
-    width: 955px;
-    height: 95px;
+    width: 1345px;
+    height: 250px;
     
 }
 
 #menu {
-    width: 955px;
-    margin-top: 100px;
-    margin-left: 350px;
-    text-align: center;
+    width: 1345px;
+    background-color:#79c9f9;
 }
 
-#menu ul{
+#menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
+
 }
 
-#menu ul li{
+#menu ul li {
     float: left;
-    position:relative;
+    position: relative;
 }
 
-#menu ul li a{
+/* Menu horizontal principal */
+#menu ul li a {
     display: inline-block;
     text-decoration: none;
-    color: #FFF;
-    background-color: #92c1e9;
+    color: white;
+    background-color:#79c9f9;
     padding: 5px 10px;
-    border: 1px solid darkgray;
-    margin-right: -5px;
-    width: 100px;
+    margin-right: 0px;
+    width: 204.1px;
 }
 
-#menu ul li ul{
+/* Submenu */
+#menu ul li ul {
     display: none;
     position: absolute;
     padding-top: 5px;
 }
 
-#menu ul li ul a{
+/* Itens do submenu */
+#menu ul li ul li a {
     width: 110px;
     margin-top: -1px;
+    width: 204.1px;
 }
 
-#menu ul li ul li a:houver{
-    background-color: #3190d5;
+#menu ul li ul li a:hover  {
+    background-color: #b8e2f9;
+    
 }
 
-#menu li:houver ul{
+/* PULO DO GATO!!  Faz aparecer o menu */
+#menu li:hover ul {
     display: block;
+    
 }
 
-#menu ul li a:houver{
-    background-color: #3190d5;
+/* Alterar a cor de background dos itens do menu */
+#menu ul li a:hover {
+    background-color: #b8e2f9;
 }
 
-article{
+#titulonovos{
     float:left;
-    margin: 30px 150px;
-    width: 600px;
     text-align: left;
+    margin-top: 80px;
+    margin-left: 150px;
 }
 
-article ul li{
-    display: ;
+#titulonovos h1, h2, h4 {
+    font-family: monospace;
+    color: #79c9f9;
 }
+#titulonovos h1{
+    font-size: 1.6em;
+    margin: 0.5px;
+}
+
+#traco {
+    height: 5px;
+    width: 50px;
+    background-color: #79c9f9;
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+#corponovos {
+    height: 900px;
+    width: 250px;
+    background-color: rgb(236, 235, 235);
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+#corponovos ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#corponovos ul li {
+    float: left;
+}
+
+#corponovos ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 235, 235);
+    border: 2px solid rgba(194, 194, 194, 0.918);
+    padding: 5px 10px;
+    margin-right: 0px;
+    width: 226px;
+    height: 220px;
+}
+
+
+#titulonoticias{
+    float:center;
+    text-align: left;
+    margin-top: -960px;
+    margin-left: 429px;
+}
+
+#titulonoticias h1, h2, h4 {
+    font-family: monospace;
+    color: #79c9f9;
+}
+#titulonoticias h1{
+    font-size: 1.6em;
+    margin: 0.5px;
+}
+
+#traconoticias {
+    height: 5px;
+    width: 50px;
+    background-color: #79c9f9;
+    margin-top: 8px;
+    margin-left: 430px;
+}
+
+#corponoticias {
+    height: 936px;
+    width: 500px;
+    background-color: rgb(236, 235, 235);
+    margin-left: 30px;
+    margin-top: -702px;
+    float: left;
+}
+
+#corponoticias ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#corponoticias ul li {
+    float: left;
+}
+
+#corponoticias ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 235, 235);
+    border: 2px solid rgba(194, 194, 194, 0.918);
+    padding: 5px 10px;
+    margin-right: 0px;
+    width: 500px;
+    height: 298px;
+}
+
+footer {
+    width: 1335px;
+    height: 68px;
+    font-size: 0.75em;
+    text-align: center;
+    background-color: #79c9f9;
+    padding: 5px;
+    margin-top: 979px;
+}
+
