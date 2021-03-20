@@ -1,14 +1,14 @@
 html {
     width: 1345px;
-    height: 1455px;
+    height: 1500px;
 }
 main {
     width: 1345px;
-    height: 1455px;
+    height: 1500px;
     margin-left: -8px;
     margin-top: -8px;
     border: 2px solid rgba(160, 160, 160, 0.918);
-    background-color: white;
+    background-color: #1f1f1f;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,7 +25,7 @@ header {
 
 #menu {
     width: 1345px;
-    background-color:#79c9f9;
+    background-color:#012b5b;
 }
 
 #menu ul {
@@ -46,7 +46,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color:#79c9f9;
+    background-color:#012b5b;
     padding: 5px 10px;
     margin-right: 0px;
     width: 204.1px;
@@ -67,7 +67,7 @@ header {
 }
 
 #menu ul li ul li a:hover  {
-    background-color: #b8e2f9;
+    background-color: #1a395d;
     
 }
 
@@ -79,7 +79,7 @@ header {
 
 /* Alterar a cor de background dos itens do menu */
 #menu ul li a:hover {
-    background-color: #b8e2f9;
+    background-color: #1a395d;
 }
 
 #titulonovos{
@@ -109,7 +109,7 @@ header {
 #corponovos {
     height: 900px;
     width: 250px;
-    background-color: rgb(236, 235, 235);
+    background-color: #1a395d;
     margin-top: 25px;
     margin-left: 150px;
 }
@@ -128,8 +128,8 @@ header {
 #corponovos ul li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
-    background-color: rgb(236, 235, 235);
+    color: white;
+    background-color: #1a395d;
     border: 2px solid rgba(194, 194, 194, 0.918);
     padding: 5px 10px;
     margin-right: 0px;
@@ -165,7 +165,7 @@ header {
 #corponoticias {
     height: 936px;
     width: 500px;
-    background-color: rgb(236, 235, 235);
+    background-color: #1a395d;
     margin-left: 30px;
     margin-top: -702px;
     float: left;
@@ -185,8 +185,8 @@ header {
 #corponoticias ul li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
-    background-color: rgb(236, 235, 235);
+    color: white;
+    background-color: #1a395d;
     border: 2px solid rgba(194, 194, 194, 0.918);
     padding: 5px 10px;
     margin-right: 0px;
@@ -221,7 +221,7 @@ header {
 #corpoartigo {
     height: 900px;
     width: 250px;
-    background-color: rgb(236, 235, 235);
+    background-color: #1a395d;
     margin-top: -936px;
     margin-left: 985px;
     float: left;
@@ -240,8 +240,8 @@ header {
 #corpoartigo ul li a {
     display: inline-block;
     text-decoration: none;
-    color: black;
-    background-color: rgb(236, 235, 235);
+    color: white;
+    background-color: #1a395d;
     border: 2px solid rgba(194, 194, 194, 0.918);
     padding: 5px 10px;
     margin-right: 0px;
@@ -254,8 +254,9 @@ footer {
     height: 68px;
     font-size: 0.75em;
     text-align: center;
-    background-color: #79c9f9;
+    background-color: #012b5b;
+    color: white;
     padding: 5px;
-    margin-top: 979px;
+    margin-top: 1014px;
 }
 
